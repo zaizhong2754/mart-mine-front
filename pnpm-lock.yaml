@@ -44,6 +44,9 @@ dependencies:
   '@dcloudio/uni-quickapp-webview':
     specifier: 3.0.0-3080720230703001
     version: registry.npmmirror.com/@dcloudio/uni-quickapp-webview@3.0.0-3080720230703001(postcss@8.4.28)(ts-node@10.9.1)(vue@3.2.45)
+  '@dcloudio/uni-ui':
+    specifier: ^1.4.28
+    version: registry.npmmirror.com/@dcloudio/uni-ui@1.4.28
   vue:
     specifier: ^3.2.45
     version: registry.npmmirror.com/vue@3.2.45
@@ -82,6 +85,9 @@ devDependencies:
   '@uni-helper/uni-app-types':
     specifier: ^0.5.8
     version: registry.npmmirror.com/@uni-helper/uni-app-types@0.5.8(typescript@4.9.4)
+  '@uni-helper/uni-ui-types':
+    specifier: ^0.5.11
+    version: registry.npmmirror.com/@uni-helper/uni-ui-types@0.5.11(@uni-helper/uni-app-types@0.5.8)
   '@vue/eslint-config-prettier':
     specifier: ^8.0.0
     version: registry.npmmirror.com/@vue/eslint-config-prettier@8.0.0(eslint@8.47.0)(prettier@3.0.2)
@@ -2501,6 +2507,12 @@ packages:
       - vue
     dev: false
 
+  registry.npmmirror.com/@dcloudio/uni-ui@1.4.28:
+    resolution: {integrity: sha512-e/lSbvR79KH9+d3D4ueNbvD6szigjO/5IyjBNmiTqaj0PTS324fBV3L6f3s1qpkYonM4rdOl000hVOcAg6Gh/A==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@dcloudio/uni-ui/-/uni-ui-1.4.28.tgz}
+    name: '@dcloudio/uni-ui'
+    version: 1.4.28
+    dev: false
+
   registry.npmmirror.com/@dcloudio/vite-plugin-uni@3.0.0-3080720230703001(postcss@8.4.28)(ts-node@10.9.1)(vite@4.0.4)(vue@3.2.45):
     resolution: {integrity: sha512-PMDGsIDjBuoGNzzNPxLAHrXEzBsA2huoZgjbaGa3H8N+4cnbJZmEJEsy/OVdA3I9lrgZ+H6QW95qIA5aVO6djA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@dcloudio/vite-plugin-uni/-/vite-plugin-uni-3.0.0-3080720230703001.tgz}
     id: registry.npmmirror.com/@dcloudio/vite-plugin-uni/3.0.0-3080720230703001
@@ -4290,6 +4302,23 @@ packages:
     dependencies:
       '@dcloudio/types': registry.npmmirror.com/@dcloudio/types@3.3.3
       typescript: registry.npmmirror.com/typescript@4.9.4
+      vue3: registry.npmmirror.com/vue@3.3.4
+    dev: true
+
+  registry.npmmirror.com/@uni-helper/uni-ui-types@0.5.11(@uni-helper/uni-app-types@0.5.8):
+    resolution: {integrity: sha512-tGX4llyJBdq9TmNjmZYKu4eueUWUU0F/YgZeTWDgVCmlgYGavhcUL7R+I0Uxe5hGoqFXkNf0ZnmG/WFZWfK/HQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@uni-helper/uni-ui-types/-/uni-ui-types-0.5.11.tgz}
+    id: registry.npmmirror.com/@uni-helper/uni-ui-types/0.5.11
+    name: '@uni-helper/uni-ui-types'
+    version: 0.5.11
+    engines: {node: '>=14.18'}
+    peerDependencies:
+      '@uni-helper/uni-app-types': ^0.5.1
+    peerDependenciesMeta:
+      '@uni-helper/uni-app-types':
+        optional: true
+    dependencies:
+      '@dcloudio/types': registry.npmmirror.com/@dcloudio/types@3.3.3
+      '@uni-helper/uni-app-types': registry.npmmirror.com/@uni-helper/uni-app-types@0.5.8(typescript@4.9.4)
       vue3: registry.npmmirror.com/vue@3.3.4
     dev: true
 
