@@ -64,6 +64,13 @@ module.exports = {
     ],
     // 不允许使用未知的单位
     'unit-no-unknown': [true, { ignoreUnits: ['rpx'] }],
+    // 兼容自定义标签名
+    'selector-type-no-unknown': [
+      true,
+      {
+        ignoreTypes: ['page']
+      }
+    ],
     // 指定关键帧名的模式
     'keyframes-name-pattern': null,
     'order/order': [

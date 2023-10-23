@@ -14,5 +14,10 @@
       "@uni-helper/uni-ui-types"
     ]
   },
+  "ignoreDeprecations": "5.0",
+  // vue 编译器类型，校验标签类型
+  "vueCompilerOptions": {
+    "nativeTags": ["block", "component", "template", "slot"]
+  },
   "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"]
 }
